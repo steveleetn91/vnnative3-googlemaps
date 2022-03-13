@@ -1,0 +1,27 @@
+{
+  "name": "vnnative3-googlemaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/vnnative3-googlemaps.git"
+  },
+  "keywords": [
+    "vnnative3",
+    "stevelee"
+  ],
+  "author": "stevelee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steveleetn91/vnnative3-googlemaps/issues"
+  },
+  "homepage": "https://github.com/steveleetn91/vnnative3-googlemaps#readme",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  }
+}
