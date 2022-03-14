@@ -9,7 +9,7 @@ export default class Vnnative3GoogleMapInit implements Vnnative3GoogleMapInitInt
     }
     setApiKey(apikey : string) : void {
         this.plugin.plugin.google.maps.environment.setEnv({
-            'API_KEY_FOR_BROWSER_RELEASE': '(YOUR_API_KEY_IS_HERE)',
+            'API_KEY_FOR_BROWSER_RELEASE': apikey,
             'API_KEY_FOR_BROWSER_DEBUG': ''  // optional
           });
     }
